@@ -1,5 +1,5 @@
 import React from 'react';
-import InputBooks from './Inputbooks';
+import InputBooks from './inputbooks';
 import { removeBook } from '../redux/Book/Book';
 
 function Books() {
