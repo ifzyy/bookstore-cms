@@ -1,0 +1,24 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo {
+  color: lightskyblue;
+  margin-left: 50px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks > * {
+  color: grey;
+  text-decoration: none;
+}
+
+.navLinks > * :active {
+  color: black;
+}
