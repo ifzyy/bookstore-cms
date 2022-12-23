@@ -17,6 +17,7 @@ export const removeBook = (payload) => ({
 
 export const addAPI = (Book) => async (dispatch) => {
   dispatch(addBook(Book));
+
   await fetch(`${baseURL}/apps/${appID}/books`, {
     method: 'POST',
     body: JSON.stringify({
